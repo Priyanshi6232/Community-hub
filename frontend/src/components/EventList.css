@@ -1,0 +1,79 @@
+/* src/components/EventList.css */
+
+.unordered-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.list {
+    background-color: #f7f1e3; /* Light orange background for events */
+    border: 1px solid #e17055; /* Darker orange for borders */
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative; /* Enables positioning of button */
+}
+
+.list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.unordered-list h3 {
+    color: #d35400; /* Dark orange for event title */
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.unordered-list p {
+    color: #555555; /* Dark grey for text */
+    margin: 0.3rem 0;
+}
+
+p strong {
+    color: #6c5ce7; /* Accent color for labels */
+}
+
+.no-events {
+    color: #b2bec3; /* Light grey for no events message */
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.register-button {
+    background-color: #e17055; /* Dark orange for the button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    position: absolute; /* Allows positioning in bottom-right */
+    bottom: 1rem;
+    right: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #d35400; /* Darker shade on hover */
+}
+
+h1{
+    color: #ba4a00;
+}
+
+.addevent{
+    background-color: #e17055;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

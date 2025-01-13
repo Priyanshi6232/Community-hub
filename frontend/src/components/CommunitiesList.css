@@ -1,0 +1,30 @@
+.community {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.community-actions {
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+    gap: 10px;
+}
+
+.join-button,
+.chat-button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.chat-button {
+    background-color: #4caf50; /* Green for chat button */
+    color: white;
+}
+
+.join-button {
+    background-color: #008cba; /* Blue for join button */
+    color: white;
+}
